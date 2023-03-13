@@ -1,0 +1,14 @@
+.newjs {
+    color: blueviolet;
+    font-size: 4rem;
+}
+
+.light {
+    background-color: orange;
+    color: black;
+}
+
+.dark {
+    background-color: blueviolet;
+    color: white;
+}
