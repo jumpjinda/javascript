@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <!-- <body onload="welcome()"> -->
+
+    <body>
+
+        <label for="">Name</label>
+        <input type="text" placeholder="Input your name" onfocus="highlight(this)" onblur="unHighlight(this)">
+        <textarea name="" id="" cols="30" rows="10" onfocus="highlight(this)" onblur="unHighlight(this)"></textarea>
+
+        <label for="">Choose your language</label>
+        <select name="" id="menu" onchange="getMenu()">
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="Bootstrap">Bootstrap</option>
+        </select>
+        <p id="display"></p>
+
+        <a href="" onmouseover="highlight2(this)" onmouseout="unHighlight2(this)">Menu 1</a>
+        <a href="">Menu 2</a>
+
+        <script src="app.js"></script>
+    </body>
+
+</html>
